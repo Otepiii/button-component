@@ -1,0 +1,25 @@
+.side ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  margin: 0;
+  padding: 1.3rem;
+}
+
+.side h1 {
+  margin-bottom: 6rem;
+}
+
+.side ul li {
+  font-size: 1.3rem;
+}
+
+.side {
+  height: 100vh;
+  width: auto;
+  background-color: #fafbfd;
+  display: flex;
+  justify-content: space-between;
+}
