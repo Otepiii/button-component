@@ -1,11 +1,17 @@
-.side ul {
-  list-style: none;
+.side {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 60%;
+}
+.side ul {
+  list-style: none;
+  height: 80%;
   margin: 0;
   padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #9e9e9e;
 }
 
 .side h1 {
@@ -22,4 +28,8 @@
   background-color: #fafbfd;
   display: flex;
   justify-content: space-between;
+}
+
+.side ul li:nth-child(5) {
+  color: #333;
 }
