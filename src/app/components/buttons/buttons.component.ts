@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent implements OnInit {
-
-  htmlStr: string = '<Button fdsasdf/>';
-
+ color() {
+  return "red";
+}
   constructor() { }
 
   ngOnInit(): void {
