@@ -3,7 +3,7 @@
 <div class="first-btn">
     <div class="button">
         <div class="default">&lt;Button / &gt;</div>
-        <app-button [style]="color()"></app-button>
+        <app-button>Default</app-button>
     </div>
     <div class="button">
         <div class="default">&:hover, &:focus</div>
@@ -11,7 +11,7 @@
     </div>
     <div class="button">
         <div class="default">&lt;Button variant="outline" &nbsp;/ &gt;</div>
-        <div class="inner-button">Default</div>
+        <app-button [ngClass]="'outline'"></app-button>
     </div>
     <div class="button">
         <div class="default">&:hover, &:focus</div>

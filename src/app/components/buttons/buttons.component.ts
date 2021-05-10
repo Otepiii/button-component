@@ -1,15 +1,14 @@
 import { style } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-buttons',
   templateUrl: './buttons.component.html',
-  styleUrls: ['./buttons.component.css']
+  styleUrls: ['./buttons.component.scss']
 })
-export class ButtonsComponent implements OnInit {
- color() {
-  return "red";
-}
+export class ButtonsComponent implements OnInit{
+
+
   constructor() { }
 
   ngOnInit(): void {
