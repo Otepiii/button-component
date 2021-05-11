@@ -27,18 +27,18 @@
     </div>
     <div class="button">
         <div class="default">&lt;Button disabledShadow/ &gt;</div>
-        <div class="inner-button">Default</div>
+        <app-button [ngClass]="'disabledShadow'"></app-button>
     </div>
     <div class="button">
 
     </div>
     <div class="button">
         <div class="default">&lt;Button disabled&nbsp;/ &gt;</div>
-        <div class="inner-button">Disabled</div>
+        <app-button [ngClass]="'disabled'"></app-button>
     </div>
     <div class="button">
         <div class="default">&lt;Button variant="text" disabled&nbsp;/ &gt;</div>
-        <div class="inner-button">Disabled</div>
+        <app-button [ngClass]="['text', 'disabled']"></app-button>
     </div>
 
 </div>

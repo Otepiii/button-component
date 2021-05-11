@@ -40,7 +40,7 @@
 .text {
   padding: 0.7rem 1rem;
   color: #3d5afe;
-  background: transparent;
+  background: transparent !important;
   margin: 1rem 0;
   font-size: 1.2rem;
   font-weight: 500;
@@ -50,5 +50,29 @@
 }
 
 .text:hover {
+  cursor: pointer;
   background-color: rgba(41, 98, 255, 0.1) !important;
+}
+
+.disabledShadow {
+  background: #3d5afe !important;
+  border: none;
+  color: #fff;
+}
+
+.disabledShadow:hover {
+  box-shadow: none !important;
+}
+
+.disabled {
+  background-color: #e0e0e0;
+  color: #7a7979 !important;
+}
+
+.disabled:hover {
+  cursor: none !important;
+  background-color: #e0e0e0 !important;
+}
+
+.color-primary {
 }
