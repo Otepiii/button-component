@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./_buttons.scss);
+
+$default-color: #e0e0e0;
+$primary-color: #3d5afe;
+$secondary-color: #1c313a;
+$danger-color: #d32f2f;
+
 body {
   padding: 0;
   margin: 0;

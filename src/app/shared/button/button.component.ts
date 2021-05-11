@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
+  isText: boolean = false;
   constructor() { }
 
+
   ngOnInit(): void {
+    this.isText= false;
   }
+
+
 
 }

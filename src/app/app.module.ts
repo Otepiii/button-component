@@ -6,7 +6,7 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { ComponentsComponent } from './components/components.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
-import { ButtonModule} from './button/button.module'
+import {SharedModule} from './shared/shared.module'
 
 
 @NgModule({
@@ -18,7 +18,7 @@ import { ButtonModule} from './button/button.module'
   ],
   imports: [
     BrowserModule,
-    ButtonModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

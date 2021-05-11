@@ -9,8 +9,8 @@ import { ButtonComponent } from './button/button.component';
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     ButtonComponent
-  ],
+  ]
 })
-export class ButtonModule { }
+export class SharedModule { }
