@@ -62,10 +62,10 @@
 
 .disabledShadow:hover {
   box-shadow: none !important;
+  cursor: none !important;
 }
 
 .disabled {
-  background-color: #e0e0e0;
   color: #7a7979 !important;
 }
 

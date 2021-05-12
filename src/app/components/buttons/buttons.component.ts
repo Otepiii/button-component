@@ -8,6 +8,7 @@ import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit{
 
+  // public icon = 'outline'
 
   constructor() { }
 
